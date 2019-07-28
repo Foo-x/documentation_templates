@@ -1,0 +1,42 @@
+# テーブル定義
+
+テーブル定義の一覧を記載します。
+
+- [table1](#table1)
+- [table2](#table2)
+
+
+## table1
+
+| Name | Type | Not Null | Key | Default | Description | 
+| -- | -- | -- | -- | -- | -- |
+| column1 | type1(10) | Y | PRI | | column1の説明 |
+| column2 | type2 | Y | UNI | | column2の説明 |
+| column3 | type3 | Y | | default_value | column3の説明 |
+| column4 | type4 | Y | UNI | | column4の説明 |
+
+
+### Index
+
+| Name | Columns | Unique | Description |
+| -- | -- | -- | -- |
+| PRIMARY | column1 | Y | PRIMARYの説明 |
+| index1 | column2 | Y | index1の説明 |
+| index2 | column2, column3 | N | index2の説明 |
+| index3 | column4 | Y | index3の説明 |
+
+
+### Foreign Keys
+
+| Columns | Reference Table | Reference Columns |
+| -- | -- | -- |
+| column4 | table2 | column4 |
+
+## table2
+
+| Name | Type | Not Null | Key | Default | Description | 
+| -- | -- | -- | -- | -- | -- |
+| column4 | type4 | Y | PRI | | column4の説明 |
+| column5 | type5 | Y | | default_value | column5の説明 |
+
+(table2のIndex, ForeignKeysは省略)

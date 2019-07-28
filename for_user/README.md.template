@@ -1,0 +1,31 @@
+# Project Title
+
+プロジェクトの概要です。
+
+
+## Features
+
+代表的な機能の一覧です。細かい説明は別途ドキュメントを用意し、そちらへのリンクを記載します。(Optional)  
+[詳細](Api.template.md)
+
+
+## Requirements
+
+実行に必要な環境やソフトウェアの一覧です。(Optional)
+
+
+## Installation
+
+このプロジェクトの実行環境を構築する手順です。
+
+
+## Usage
+
+代表的な起動方法です。細かい説明は別途ドキュメントを用意し、そちらへのリンクを記載します。  
+[詳細](Command.template.md)
+
+
+## Configuration
+
+代表的な設定方法です。細かい説明は別途ドキュメントを用意し、そちらへのリンクを記載します。(Optional)  
+[詳細](Configuration.template.md)

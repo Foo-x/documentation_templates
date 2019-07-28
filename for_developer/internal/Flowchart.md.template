@@ -1,0 +1,36 @@
+# フローチャート
+
+フローチャートの一覧を記載します。
+
+- [scenario1](#scenario1)
+- [scenario2](#scenario2)
+
+
+## scenario1
+
+scenario1の説明です。
+
+```puml
+@startuml
+skinparam monochrome true
+
+start
+:action1;
+if (condition1) then (yes)
+    :action2;
+
+else (no)
+    :action3;
+
+endif
+
+end
+@enduml
+```
+
+scenario1の補足です。(Optional)
+
+
+## scenario2
+
+(省略)

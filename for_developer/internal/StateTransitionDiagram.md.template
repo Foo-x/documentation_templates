@@ -1,0 +1,37 @@
+# 状態遷移図
+
+状態遷移図の一覧を記載します。
+
+- [scenario1](#scenario1)
+- [scenario2](#scenario2)
+
+
+## scenario1
+
+scenario1の説明です。
+
+```puml
+@startuml
+skinparam monochrome true
+hide empty description
+
+[*] --> state1
+state1 --> state2: success
+state1 --> state3: fail
+
+state2 --> [*]
+
+state3 --> state1
+
+state1: description1
+state2: description2
+
+@enduml
+```
+
+scenario1の補足です。(Optional)
+
+
+## scenario2
+
+(省略)

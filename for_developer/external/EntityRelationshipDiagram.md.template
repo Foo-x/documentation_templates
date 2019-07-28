@@ -1,0 +1,26 @@
+# ER図
+
+ER図を記載します。
+
+```puml
+@startuml
+skinparam monochrome true
+
+entity table1 {
+    column1
+    --
+    column2
+    column3
+    column4 <<FK>>
+}
+
+entity table2 {
+    column4
+    --
+    column5
+}
+
+table1 }o--|| table2
+
+@enduml
+```
