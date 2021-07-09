@@ -1,31 +1,36 @@
-# Project Title
+# Title
 
-プロジェクトの概要です。
+リポジトリの概要です。
 
 
 ## Features
 
-代表的な機能の一覧です。細かい説明は別途ドキュメントを用意し、そちらへのリンクを記載します。(Optional)  
-[詳細](Api.md.template)
+代表的な機能の一覧です。細かい説明は別途ドキュメントを用意し、そちらへのリンクを記載します。  
+[API](#)
 
 
 ## Requirements
 
-実行に必要な環境やソフトウェアの一覧です。(Optional)
+実行に必要な環境やソフトウェアの一覧です。
 
 
 ## Installation
 
-このプロジェクトの実行環境を構築する手順です。
+このリポジトリの実行環境を構築する手順です。
 
 
 ## Usage
 
 代表的な起動方法です。細かい説明は別途ドキュメントを用意し、そちらへのリンクを記載します。  
-[詳細](Command.md.template)
+[Command](Command.md.template)
 
 
 ## Configuration
 
-代表的な設定方法です。細かい説明は別途ドキュメントを用意し、そちらへのリンクを記載します。(Optional)  
-[詳細](Configuration.md.template)
+代表的な設定方法です。細かい説明は別途ドキュメントを用意し、そちらへのリンクを記載します。  
+[Configuration](Configuration.md.template)
+
+
+## License
+
+リポジトリのライセンスです。
