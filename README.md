@@ -22,20 +22,18 @@
 
 ユーザを対象読者とした文書の一覧です。
 
-- [目次](for_user/README.md)
-    - [概要](for_user/README.md.template) - [例](for_user/examples/README.md)
-    - [コマンド](for_user/Command.md.template) - [例](for_user/examples/Command.md)
-    - [API](for_user/Api.md.template) - [例](for_user/examples/Api.md)
-    - [設定](for_user/Configuration.md.template) - [例](for_user/examples/Configuration.md)
+- [概要](for_user/README.md.template) - [例](for_user/examples/README.md)
+- [コマンド](for_user/Command.md.template) - [例](for_user/examples/Command.md)
+- [API](for_user/Api.md.template) - [例](for_user/examples/Api.md)
+- [設定](for_user/Configuration.md.template) - [例](for_user/examples/Configuration.md)
 
 
 ## 開発者向け
 
 開発者を対象読者とした文書の一覧です。
 
-- [目次](for_developer/README.md)
-    - [外部](#外部)
-    - [内部](#内部)
+- [外部](#外部)
+- [内部](#内部)
 
 なお一部の図はPlantUMLおよびUI Flowsによってテキストから生成されることを想定しています。
 
