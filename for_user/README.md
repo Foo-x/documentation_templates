@@ -1,12 +1,21 @@
 # My Awesome Server
 
-My Awesome Serverはドキュメントの例を示すためのサンプルプロジェクトです。
+![](https://img.shields.io/badge/sample-badge-blue)
+
+My Awesome Serverはドキュメントの例を示すためのサンプルプロジェクトです。開発効率を向上させるドキュメントのテンプレートをまとめています。
+
+継続的な更新が想定されるドキュメントのみを対象としています。  
+成果物としてのドキュメントは対象外です。
+
+詳細は [ドキュメント](#)（ダミー）を参照してください。
 
 
 ## Features
 
 - ホットリロード
 - 静的ファイルの配信
+
+詳細は [API.md](#)（ダミー）を参照してください。
 
 
 ## Requirements
@@ -27,7 +36,7 @@ npm install my-awesome-server
 my-awesome-server
 ```
 
-[Command](Command.md)
+詳細は [Command.md](Command.md) を参照してください。
 
 
 ## Configuration
@@ -41,4 +50,14 @@ my-awesome-server
 }
 ```
 
-[Configuration](Configuration.md)
+詳細は [Configuration.md](Configuration.md) を参照してください。
+
+
+## Contributing
+
+リポジトリの運用に関するガイドラインは [CONTRIBUTING.md](../for_developer/external/CONTRIBUTING.md) を参照してください。
+
+
+## License
+
+CC0 1.0
