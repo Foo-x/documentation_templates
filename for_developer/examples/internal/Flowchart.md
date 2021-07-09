@@ -7,20 +7,16 @@
 
 ユーザをIDで検索した際のフローです。
 
-```puml
-@startuml
-skinparam monochrome true
+```mermaid
+graph TD
+    s([start])
+    1[ID検索]
+    2{ユーザが存在}
+    3[ユーザの情報を表示]
+    4[エラーメッセージを表示]
+    e([end])
 
-start
-:ID検索;
-if (ユーザが存在) then (する)
-    :ユーザの情報を表示;
-
-else (しない)
-    :エラーメッセージを表示;
-
-endif
-
-end
-@enduml
+    s --> 1 --> 2
+    2 -- する --> 3 --> e
+    2 -- しない --> 4 --> e
 ```

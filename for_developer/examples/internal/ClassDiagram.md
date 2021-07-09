@@ -5,22 +5,17 @@
 
 ## My Awesome Server
 
-```puml
-@startuml
-skinparam monochrome true
+```mermaid
+classDiagram
+    class User {
+        -id: int
+        -name: String
+        -classes: List<Class>
+    }
+    class Class {
+        -id: int
+        -name: String
+    }
 
-class User {
-    - id: int
-    - name: String
-    - classes: List<Class>
-}
-
-class Class {
-    - id: int
-    - name: String
-}
-
-User o- Class
-
-@enduml
+    User o-- Class
 ```

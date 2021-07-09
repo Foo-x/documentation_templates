@@ -10,22 +10,18 @@
 
 scenario1の説明です。
 
-```puml
-@startuml
-skinparam monochrome true
+```mermaid
+graph TD
+    s([start])
+    1[ID検索]
+    2{ユーザが存在}
+    3[ユーザの情報を表示]
+    4[エラーメッセージを表示]
+    e([end])
 
-start
-:action1;
-if (condition1) then (yes)
-    :action2;
-
-else (no)
-    :action3;
-
-endif
-
-end
-@enduml
+    s --> 1 --> 2
+    2 -- する --> 3 --> e
+    2 -- しない --> 4 --> e
 ```
 
 scenario1の補足です。(Optional)

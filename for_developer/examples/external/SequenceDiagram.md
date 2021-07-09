@@ -6,44 +6,37 @@
 
 ## ID search success
 
-```puml
-@startuml
-skinparam monochrome true
+```mermaid
+sequenceDiagram
+    participant U as User
+    participant C as Client
+    participant S as Server
+    participant D as DB
 
-actor User as U
-participant Client as C
-participant Server as S
-participant DB as D
-
-U -> C: id1で検索
-C -> S: /users/id1
-S -> D: id1で検索するクエリ発行
-D -> D: select id == id1: 1
-D -> S: id1のuserを返す
-S -> C: id1のuserを返す
-C -> U: id1のuserを返す
-
-@enduml
+    U ->> C: id1で検索
+    C ->> S: /users/id1
+    S ->> D: id1で検索するクエリ発行
+    D ->> D: select id == id1: 1
+    D ->> S: id1のuserを返す
+    S ->> C: id1のuserを返す
+    C ->> U: id1のuserを返す
 ```
+
 
 ## ID search fail
 
-```puml
-@startuml
-skinparam monochrome true
+```mermaid
+sequenceDiagram
+    participant U as User
+    participant C as Client
+    participant S as Server
+    participant D as DB
 
-actor User as U
-participant Client as C
-participant Server as S
-participant DB as D
-
-U -> C: id1で検索
-C -> S: /users/id1
-S -> D: id1で検索するクエリ発行
-D -> D: select id == id1: 0
-D -> S: userなし
-S -> C: 404
-C -> U: エラーメッセージ表示
-
-@enduml
+    U ->> C: id1で検索
+    C ->> S: /users/id1
+    S ->> D: id1で検索するクエリ発行
+    D ->> D: select id == id1: 0
+    D ->> S: userなし
+    S ->> C: 404
+    C ->> U: エラーメッセージ表示
 ```

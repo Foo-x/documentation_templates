@@ -8,40 +8,19 @@
 
 ## module1
 
-```puml
-@startuml
-skinparam monochrome true
+```mermaid
+classDiagram
+    class User {
+        -id: int
+        -name: String
+        -classes: List<Class>
+    }
+    class Class {
+        -id: int
+        -name: String
+    }
 
-interface Interface {
-    {abstract} + method1(param1: type1): type2
-}
-
-abstract class Abstract {
-    {abstract} # method2(): type3
-}
-
-class Parent {
-    - field1: Field
-    - method3(): type4
-}
-
-class Child
-
-class Field {
-    + method4(): type5
-}
-
-class Main
-
-Interface <|.. Abstract
-Abstract <|.. Parent
-
-Parent <|-- Child
-Parent *-> Field
-
-Main -> Interface
-
-@enduml
+    User o-- Class
 ```
 
 

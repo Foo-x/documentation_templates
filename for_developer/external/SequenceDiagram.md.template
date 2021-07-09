@@ -8,21 +8,20 @@
 
 ## sequence1
 
-```puml
-@startuml
-skinparam monochrome true
+```mermaid
+sequenceDiagram
+    participant U as User
+    participant C as Client
+    participant S as Server
+    participant D as DB
 
-actor User as U
-participant Client as C
-participant Server as S
-
-U -> C: request1
-C -> S: request2
-S -> S: process1
-S -> C: response2
-C -> U: response1
-
-@enduml
+    U ->> C: id1で検索
+    C ->> S: /users/id1
+    S ->> D: id1で検索するクエリ発行
+    D ->> D: select id == id1: 1
+    D ->> S: id1のuserを返す
+    S ->> C: id1のuserを返す
+    C ->> U: id1のuserを返す
 ```
 
 ## sequence2

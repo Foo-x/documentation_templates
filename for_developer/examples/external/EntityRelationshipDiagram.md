@@ -1,28 +1,20 @@
 # ER図
 
-```puml
-@startuml
-skinparam monochrome true
+```mermaid
+erDiagram
+    users {
+        INTEGER user_id
+        VARCHAR_20 user_name
+    }
+    user_classes {
+        INTEGER__FK user_id
+        INTEGER__FK class_id
+    }
+    classes {
+        INTEGER class_id
+        VARCHAR_20 class_name
+    }
 
-entity users {
-    user_id
-    --
-    user_name
-}
-
-entity classes {
-    class_id
-    --
-    class_name
-}
-
-entity user_classes {
-    user_id <<FK>>
-    class_id <<FK>>
-}
-
-users ||-o{ user_classes
-user_classes }o-|| classes
-
-@enduml
+    users ||--o{ user_classes: ""
+    classes ||--o{ user_classes: ""
 ```

@@ -10,23 +10,14 @@
 
 scenario1の説明です。
 
-```puml
-@startuml
-skinparam monochrome true
-hide empty description
+```mermaid
+stateDiagram-v2
+    [*] --> ログイン: ログイン状態
+    [*] --> ログアウト: ログアウト状態
 
-[*] --> state1
-state1 --> state2: success
-state1 --> state3: fail
-
-state2 --> [*]
-
-state3 --> state1
-
-state1: description1
-state2: description2
-
-@enduml
+    ログイン --> ログアウト: ログアウト
+    ログアウト --> ログイン: ログイン成功
+    ログアウト --> ログアウト: ログイン失敗
 ```
 
 scenario1の補足です。(Optional)
