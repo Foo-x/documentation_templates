@@ -8,7 +8,6 @@ My Awesome Serverはドキュメントの例を示すためのサンプルプロ
 - ホットリロード
 - 静的ファイルの配信
 
-[詳細](Api.md)
 
 ## Requirements
 
@@ -28,7 +27,7 @@ npm install my-awesome-server
 my-awesome-server
 ```
 
-[詳細](Command.md)
+[Command](Command.md)
 
 
 ## Configuration
@@ -42,4 +41,4 @@ my-awesome-server
 }
 ```
 
-[詳細](Configuration.md)
+[Configuration](Configuration.md)
