@@ -51,6 +51,7 @@
 - [UI Flows](for_developer/external/UIFlows.uif) ([プレビュー](for_developer/external/previews/UIFlows.png)) *
 - [画面遷移図](for_developer/external/ScreenTransitionDiagram_sample.png) *
 - [画面設計書](for_developer/external/ScreenDesign.md) *
+- [リポジトリ運用ガイドライン](for_developer/external/CONTRIBUTING.md)
 - テーブル定義
     - ORMのスキーマファイルなどを流用するか自動生成
 - ER図
