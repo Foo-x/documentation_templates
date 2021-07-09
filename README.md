@@ -24,8 +24,9 @@
 
 - [概要](for_user/README.md.template) - [例](for_user/examples/README.md)
 - [コマンド](for_user/Command.md.template) - [例](for_user/examples/Command.md)
-- [API](for_user/Api.md.template) - [例](for_user/examples/Api.md)
 - [設定](for_user/Configuration.md.template) - [例](for_user/examples/Configuration.md)
+- API
+    - OpenAPIなどで自動生成
 
 
 ## 開発者向け
@@ -46,12 +47,14 @@
 
 - [開発環境構築手順](for_developer/external/GettingStarted.md.template) - [例](for_developer/examples/external/GettingStarted.md)
 - [配置図](for_developer/external/DeploymentDiagram.md.template) - [例](for_developer/examples/external/DeploymentDiagram.md) ([プレビュー](for_developer/examples/external/previews/DeploymentDiagram.png))
-- [テーブル定義](for_developer/external/TableDefinition.md.template) - [例](for_developer/examples/external/TableDefinition.md)
-- [ER図](for_developer/external/EntityRelationshipDiagram.md.template) - [例](for_developer/examples/external/EntityRelationshipDiagram.md) ([プレビュー](for_developer/examples/external/previews/EntityRelationshipDiagram.png))
 - [シーケンス図](for_developer/external/SequenceDiagram.md.template) - [例](for_developer/examples/external/SequenceDiagram.md) ([プレビュー](for_developer/examples/external/previews/SequenceDiagram.png))
 - [UI Flows](for_developer/external/UIFlows.uif.template) - [例](for_developer/examples/external/UIFlows.uif) ([プレビュー](for_developer/examples/external/previews/UIFlows.png)) *
 - [画面遷移図](for_developer/external/ScreenTransitionDiagram_sample.png) - [例](for_developer/examples/external/ScreenTransitionDiagram.png) *
 - [画面設計書](for_developer/external/ScreenDesign.md.template) - [例](for_developer/examples/external/ScreenDesign.md) *
+- テーブル定義
+    - ORMのスキーマファイルなどを流用するか自動生成
+- ER図
+    - ORMのスキーマファイルなどを流用するか自動生成
 
 
 ### 内部
