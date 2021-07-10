@@ -34,7 +34,7 @@ npm install my-awesome-server
 my-awesome-server
 ```
 
-詳細は [Command.md](Command.md) を参照してください。
+詳細は [Command.md](doc/user/Command.example.md) を参照してください。
 
 
 ## Configuration
@@ -48,12 +48,12 @@ my-awesome-server
 }
 ```
 
-詳細は [Configuration.md](Configuration.md) を参照してください。
+詳細は [Configuration.md](doc/user/Configuration.example.md) を参照してください。
 
 
 ## Contributing
 
-リポジトリの運用に関するガイドラインは [CONTRIBUTING.md](../for_developer/external/CONTRIBUTING.md.tpl) を参照してください。
+リポジトリの運用に関するガイドラインは [CONTRIBUTING.md](CONTRIBUTING.example.md) を参照してください。
 
 
 ## License

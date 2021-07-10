@@ -26,19 +26,19 @@
 
 代表的な起動方法を記載します。
 
-詳細は [Command.md](Command.md.tpl) を参照してください。
+詳細は [Command.md](doc/user/Command.md.tpl) を参照してください。
 
 
 ## Configuration
 
 代表的な設定方法を記載します。
 
-詳細は [Configuration.md](Configuration.md.tpl) を参照してください。
+詳細は [Configuration.md](doc/user/Configuration.md.tpl) を参照してください。
 
 
 ## Contributing
 
-リポジトリの運用に関するガイドラインは [CONTRIBUTING.md](../for_developer/external/CONTRIBUTING.md.tpl) を参照してください。
+リポジトリの運用に関するガイドラインは [CONTRIBUTING.md](CONTRIBUTING.md.tpl) を参照してください。
 
 
 ## License
