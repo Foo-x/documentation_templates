@@ -44,6 +44,8 @@
     - [例](sample_repo/doc/dev/StateTransitionDiagram.example.md) ([プレビュー](sample_repo/doc/dev/_previews/StateTransitionDiagram.png))
 - [リポジトリ運用ガイドライン](sample_repo/CONTRIBUTING.md.tpl)
     - [例](sample_repo/CONTRIBUTING.example.md)
+- [Architectural Decision Records](sample_repo/doc/dev/adr/0001-record-adr.md.tpl)
+    - [例](sample_repo/doc/dev/adr/0001-record-adr.example.md)
 - テーブル定義
     - ORMのスキーマファイルなどを流用するか自動生成
 - ER図
