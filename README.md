@@ -27,6 +27,7 @@
 - [概要](sample_repo/README.md.tpl) - [例](sample_repo/README.example.md)
 - [コマンド](sample_repo/doc/user/Command.md.tpl) - [例](sample_repo/doc/user/Command.example.md)
 - [設定](sample_repo/doc/user/Configuration.md.tpl) - [例](sample_repo/doc/user/Configuration.example.md)
+- [バグ報告テンプレート](sample_repo/.github/ISSUE_TEMPLATE/bug_report.md.tpl)
 - API
     - OpenAPIなどで自動生成
 
