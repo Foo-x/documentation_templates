@@ -56,3 +56,6 @@ foo test
 
 - [開発者向けドキュメント](doc/dev/)
 - [プロジェクト情報](../sample_project/)
+- [本番環境](https://example.com)
+- [ステージング環境](https://stg.example.com)
+- [開発環境](https://dev.example.com)
