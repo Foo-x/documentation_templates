@@ -43,3 +43,9 @@ npm run build
 # テスト
 npm run test
 ```
+
+
+## 参考情報
+
+- [開発者向けドキュメント](doc/dev/)
+- [プロジェクト情報](../sample_project/)
