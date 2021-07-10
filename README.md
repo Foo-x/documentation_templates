@@ -32,8 +32,6 @@
 
 外部要素(ユーザ含む)とのインターフェース部分に関する文書の一覧です。 `*` がついている項目はGUIアプリのみが対象です。
 
-- [開発環境構築手順](for_developer/external/GettingStarted.md.tpl)
-  - [例](for_developer/external/GettingStarted.example.md)
 - [配置図](for_developer/external/DeploymentDiagram.md.tpl)
     - [例](for_developer/external/DeploymentDiagram.example.md) ([プレビュー](for_developer/external/previews/DeploymentDiagram.png))
 - [シーケンス図](for_developer/external/SequenceDiagram.md.tpl)
@@ -44,6 +42,7 @@
 - [画面設計書](for_developer/external/ScreenDesign.md.tpl) *
     - [例](for_developer/external/ScreenDesign.example.md)
 - [リポジトリ運用ガイドライン](for_developer/external/CONTRIBUTING.md.tpl)
+    - [例](for_developer/external/CONTRIBUTING.example.md)
 - テーブル定義
     - ORMのスキーマファイルなどを流用するか自動生成
 - ER図

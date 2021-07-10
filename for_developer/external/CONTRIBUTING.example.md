@@ -23,30 +23,23 @@
 
 ## 開発環境構築手順
 
-開発環境構築手順を記載します。
-
 ### 依存関係
 
-依存関係を記載します。
-
-- [tool1](#)
-- [tool2](#)
+- [Node.js v10.16.0](https://nodejs.org/ja/)
 
 
 ### コマンド
 
-コマンドを記載します。
-
 ```sh
 # 依存ライブラリのインストール
-foo install
+npm install
 
 # デバッグビルド
-foo dev
+npm run dev
 
 # 本番ビルド
-foo build
+npm run build
 
 # テスト
-foo test
+npm run test
 ```
