@@ -1,9 +1,5 @@
 # シーケンス図
 
-- [ID検索 成功](#id-search-success)
-- [ID検索 失敗](#id-search-fail)
-
-
 ## ID search success
 
 ```mermaid

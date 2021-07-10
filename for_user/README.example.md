@@ -15,8 +15,6 @@ My Awesome Serverはドキュメントの例を示すためのサンプルプロ
 - ホットリロード
 - 静的ファイルの配信
 
-詳細は [API.md](#)（ダミー）を参照してください。
-
 
 ## Requirements
 
@@ -55,7 +53,7 @@ my-awesome-server
 
 ## Contributing
 
-リポジトリの運用に関するガイドラインは [CONTRIBUTING.md](../for_developer/external/CONTRIBUTING.md) を参照してください。
+リポジトリの運用に関するガイドラインは [CONTRIBUTING.md](../for_developer/external/CONTRIBUTING.md.tpl) を参照してください。
 
 
 ## License

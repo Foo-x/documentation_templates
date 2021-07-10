@@ -1,8 +1,5 @@
 # クラス図
 
-- [My Awesome Server](#my-awesome-server)
-
-
 ## My Awesome Server
 
 ```mermaid
