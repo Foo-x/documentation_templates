@@ -37,8 +37,6 @@
 
 開発者を対象読者とした文書の一覧です。`*` がついている項目はGUIアプリのみが対象です。
 
-なお一部の図はPlantUMLおよびUI Flowsによってテキストから生成されることを想定しています。
-
 - [配置図](sample_repo/doc/dev/DeploymentDiagram.md.tpl)
     - [例](sample_repo/doc/dev/DeploymentDiagram.example.md) ([プレビュー](sample_repo/doc/dev/_previews/DeploymentDiagram.png))
 - [シーケンス図](sample_repo/doc/dev/SequenceDiagram.md.tpl)
@@ -69,9 +67,8 @@
 
 ## Setup Previews on Visual Studio Code
 
-### PlantUML
+### Mermaid
 
-- [Graphviz](https://www.graphviz.org/)
 - [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
 
 

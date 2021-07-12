@@ -1,32 +1,28 @@
 # 配置図
 
-```puml
-@startuml
-skinparam monochrome true
+```mermaid
+flowchart TD
+    subgraph AWS
+        subgraph EC2 Instance
+            server[My Awesome Server]
+        end
 
-cloud AWS {
-    node ":EC2 Instance" {
-        [:My Awesome Server] as server
-    }
-    
-    node ":RDS Instance" {
-        [:My Awesome Database] as db
-    }
-}
+        subgraph RDS Instance
+            db[My Awesome Database]
+        end
+    end
 
-node ":My Awesome Proxy Server" {
-    [:My Awesome Proxy] as proxy
-}
+    subgraph My Awesome Proxy Server
+        proxy[My Awesome Proxy]
+    end
 
-node ":Client PC" {
-    [:Client] as client
-}
+    subgraph Client PC
+        client[Client]
+    end
 
-[server] -- [db]
-[server] -- [proxy]
-[proxy] -- [client]
-
-@enduml
+    server --- db
+    server --- proxy
+    proxy --- client
 ```
 
 ## My Awesome Server

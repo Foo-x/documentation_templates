@@ -2,23 +2,18 @@
 
 配置図と各コンポーネントの説明を記載します。
 
-```puml
-@startuml
-skinparam monochrome true
+```mermaid
+flowchart TD
+    subgraph cloud1
+        subgraph node1
+            component1
+        end
+    end
+    subgraph node2
+        component2
+    end
 
-cloud cloud1 {
-    node node1 {
-        [:component1]
-    }
-}
-
-node node2 {
-    [:component2]
-}
-
-[:component1] -- [:component2]
-
-@enduml
+    component1 --- component2
 ```
 
 ## component1
