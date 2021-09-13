@@ -54,6 +54,8 @@
     - [例](sample_repo/doc/dev/StateTransitionDiagram.example.md) ([プレビュー](sample_repo/doc/dev/_previews/StateTransitionDiagram.png))
 - [データフロー図](sample_repo/doc/dev/DataFlowDiagram.md.tpl)
     - [例](sample_repo/doc/dev/DataFlowDiagram.example.md) ([プレビュー](sample_repo/doc/dev/_previews/DataFlowDiagram.png))
+- [コミュニケーション図](sample_repo/doc/dev/Communication.md.tpl)
+    - [例](sample_repo/doc/dev/Communication.example.md) ([プレビュー](sample_repo/doc/dev/_previews/Communication.png))
 - [リポジトリ運用ガイドライン](sample_repo/CONTRIBUTING.md.tpl)
     - [例](sample_repo/CONTRIBUTING.example.md)
 - [Architectural Decision Records](sample_repo/doc/dev/adr/0001-record-adr.md.tpl)
