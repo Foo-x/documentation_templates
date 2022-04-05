@@ -9,6 +9,8 @@ My Awesome Projectは開発時に使用するドキュメントのテンプレ�
 
 ## 体制
 
+RACI図
+
 | 名前 | SlackのID | メールアドレス | 実行責任者 | 説明責任者 | 相談先 | 報告先 | 補足 |
 | --- | --- | --- |:---:|:---:|:---:|:---:| --- |
 | foo | foo | foo@example.com | | 〇 | | 〇 | PL |
@@ -16,7 +18,7 @@ My Awesome Projectは開発時に使用するドキュメントのテンプレ�
 | baz | baz | baz@example.com | 〇 | | | | |
 
 
-## スケジュール
+## マイルストーン
 
 - 2021-07
     - プロジェクトに関するドキュメントのテンプレート作成
@@ -26,22 +28,29 @@ My Awesome Projectは開発時に使用するドキュメントのテンプレ�
 
 ## ツール
 
-- [タスク管理 (GitHub)](#)
+- タスク管理
+    - [GitHub](#)
 - コミュニケーション
-    - [チャット (Slack)](#)
-    - [オンライン会議 (Zoom)](#)
-- 情報蓄積
-    - [Wiki (GitHub)](#)
-    - [議事録 (Microsoft SharePoint)](#)
-    - [用語集 (GitHub)](#)
-    - [ナレッジ (GitHub)](#)
-- [ファイル共有 (Microsoft SharePoint)](#)
-- [コード管理 (GitHub)](#)
-- [クラウド (AWS)](#)
+    - 同期
+        - [Zoom](#)
+    - 非同期
+        - [Slack](#)
+- 情報管理
+    - GitHub
+        - [Wiki](#)
+        - [用語集](#)
+        - [ナレッジ](#)
+    - [Microsoft SharePoint](#)
+- ファイル共有
+    - [Microsoft SharePoint](#)
+- ソースコード管理
+    - [GitHub](#)
+- クラウド
+    - [AWS](#)
 - オンプレサーバ
     - 000.000.000.000
 
 
-## 定例
+## 会議体
 
 毎週月曜 15:00-15:30
