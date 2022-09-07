@@ -6,7 +6,7 @@ https://example.com/CONTRIBUTING.md
 
 ## Issue
 
-<!-- Closes -->#0
+Closes #0
 
 
 ## 変更内容
