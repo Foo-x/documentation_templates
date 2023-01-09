@@ -66,6 +66,8 @@
 - [Architectural Decision Records](sample_repo/doc/dev/adr/0001-record-adr.md.tpl)
     - [例](sample_repo/doc/dev/adr/0001-record-adr.example.md)
 - [プルリクエストテンプレート](sample_repo/.github/PULL_REQUEST_TEMPLATE.md.tpl)
+- [要求仕様書](sample_repo/doc/dev/RequirementsSpecification.xlsx)
+    - Google Sheets 版は [こちら](https://docs.google.com/spreadsheets/d/1pHWuulMGjfEjIqE1vgrukGgMw1j3_C7p1jObjYV_hXo/edit?usp=sharing)
 - テーブル定義
     - ORMのスキーマファイルなどを流用するか自動生成
 - ER図
