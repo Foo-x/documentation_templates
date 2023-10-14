@@ -18,6 +18,8 @@
     - [例](sample_project/overview.example.md)
 - [運営ルール](sample_project/rules.md.tpl)
     - [例](sample_project/rules.example.md)
+- [用語集](sample_project/glossary.md.tpl)
+    - [例](sample_project/glossary.example.md)
 
 
 ## リポジトリ単位
