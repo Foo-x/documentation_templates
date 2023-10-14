@@ -9,14 +9,14 @@ My Awesome Projectは開発時に使用するドキュメントのテンプレ�
 
 ## 体制
 
-RACI図
+企業別五十音順、敬称略
 
-| 名前 | SlackのID | メールアドレス | 実行責任者 | 説明責任者 | 相談先 | 報告先 | 補足 |
-| --- | --- | --- |:---:|:---:|:---:|:---:| --- |
-| foo | foo | foo@example.com | | 〇 | | 〇 | PM |
-| bar | bar | bar@example.com | | | 〇 | 〇 | UI/UXに関する相談先 |
-| baz | baz | baz@example.com | | 〇 | | 〇 | PL、開発リーダー |
-| hoge | hoge | hoge@example.com | 〇 | | | | 開発メンバー |
+| 名前 | 企業名 | SlackのID | メールアドレス | 実行責任者 | 説明責任者 | 相談先 | 報告先 | 補足 |
+| --- | --- | --- | --- |:---:|:---:|:---:|:---:| --- |
+| foo | aaa | foo | foo@example.com | | 〇 | | 〇 | PM |
+| bar | bbb | bar | bar@example.com | | | 〇 | 〇 | UI/UXに関する相談先 |
+| baz | ccc | baz | baz@example.com | | 〇 | | 〇 | PL、開発リーダー |
+| hoge | ddd | hoge | hoge@example.com | 〇 | | | | 開発メンバー |
 
 
 ## マイルストーン
