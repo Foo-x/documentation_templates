@@ -59,6 +59,8 @@
     - [例](sample_repo/doc/dev/Flowchart.example.md) ([プレビュー](sample_repo/doc/dev/_previews/Flowchart.png))
 - [状態遷移図](sample_repo/doc/dev/StateTransitionDiagram.md.tpl)
     - [例](sample_repo/doc/dev/StateTransitionDiagram.example.md) ([プレビュー](sample_repo/doc/dev/_previews/StateTransitionDiagram.png))
+- [状態遷移表](sample_repo/doc/dev/StateTransitionMatrix.md.tpl)
+    - [例](sample_repo/doc/dev/StateTransitionMatrix.example.md)
 - [データフロー図](sample_repo/doc/dev/DataFlowDiagram.md.tpl)
     - [例](sample_repo/doc/dev/DataFlowDiagram.example.md) ([プレビュー](sample_repo/doc/dev/_previews/DataFlowDiagram.png))
 - [コミュニケーション図](sample_repo/doc/dev/Communication.md.tpl)
