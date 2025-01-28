@@ -20,6 +20,8 @@
     - [例](sample_project/rules.example.md)
 - [用語集](sample_project/glossary.md.tpl)
     - [例](sample_project/glossary.example.md)
+- [スキルマップ](sample_project/skillmap.md.tpl)
+    - [例](sample_project/skillmap.example.md)
 
 
 ## リポジトリ単位
